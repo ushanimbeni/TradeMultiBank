@@ -1,5 +1,7 @@
 **Tests Overview
-****Dashboard Tests**
+**
+
+**Dashboard Tests**
 
 **Purpose: Verify the top menu items on the dashboard.
 **
@@ -13,10 +15,11 @@ Uses soft assertions to report all mismatches instead of stopping at the first f
 
 Logs expected vs actual menu items in ExtentReports for easy debugging.
 
-**Market Tests
-**
-**Purpose: Validate the list of top cryptocurrencies on the Markets page.
-**
+**Market Tests**
+
+**Purpose: Validate the list of top cryptocurrencies on the Markets page.**
+
+
 How it works:
 
 Opens the Markets page from the dashboard.
@@ -31,7 +34,7 @@ Compares the top list and table list for data correctness (order can be ignored)
 
 Logs all stock and symbol comparisons in ExtentReports.
 
-Page Object Model (POM)
+**Page Object Model (POM)**
 
 DashboardPage: Handles actions and locators for the dashboard page, such as fetching menu items and navigating to Markets.
 
@@ -43,7 +46,7 @@ Handling notification popups.
 
 Fetching table stocks and symbols for comparison.
 
-Benefits of POM:
+**Benefits of POM:**
 
 Improves maintainability by separating page actions from test logic.
 
